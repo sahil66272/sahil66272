@@ -3,9 +3,9 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 import subprocess
 
 # Replace with your actual bot token
-TOKEN = '7534823163:AAEceD0HFpwWwIdst5ff4RhyStZ8CkRtItI'
+TOKEN = '7557118771:AAHyx8LiGDLmBGzxyw1F0DZXLH6YgY1yyJ4'
 # Admin ID
-ADMIN_ID = 1847934841
+ADMIN_ID = 1839416510
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text("Hello! Use /bgmi <target> <port> <time> to run a command.")
